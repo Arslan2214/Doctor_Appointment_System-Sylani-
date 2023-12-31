@@ -7,7 +7,6 @@ import { PatientRouter } from './Routes/PatientRoute.js'
 import { AppointmentRouter } from './Routes/AppointmentRoute.js'
 import { DoctorRouter } from './Routes/DoctorRoute.js'
 
-
 const app = express();
 dotenv.config()   // .env Config()
 app.use(cors())
